@@ -1,25 +1,25 @@
-/**
- * st-ces.scm
- *
- *  Copyright 2020 by Christian Egon Sørensen <ces@meber.fsf.org>
- *
- * This file is part of st-ces.
- *
- * st-ces is free software: you can redistribute
- * it and/or modify it under the terms of the GNU General Public
- * License as published by the Free Software Foundation, either
- * version 3 of the License, or (at your option) any later version.
- *
- * st-ces is distributed in the hope that it will
- * be useful, but WITHOUT ANY WARRANTY; without even the implied warranty
- * of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with st-ces.  If not, see <http://www.gnu.org/licenses/>.
- *
- * @license GPL-3.0+ <http://spdx.org/licenses/GPL-3.0+>
- */
+;/**
+; * st-ces.scm
+; *
+; *  Copyright 2020 by Christian Egon Sørensen <ces@meber.fsf.org>
+; *
+; * This file is part of st-ces.
+; *
+; * st-ces is free software: you can redistribute
+; * it and/or modify it under the terms of the GNU General Public
+; * License as published by the Free Software Foundation, either
+; * version 3 of the License, or (at your option) any later version.
+; *
+; * st-ces is distributed in the hope that it will
+; * be useful, but WITHOUT ANY WARRANTY; without even the implied warranty
+; * of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+; * GNU General Public License for more details.
+; *
+; * You should have received a copy of the GNU General Public License
+; * along with st-ces.  If not, see <http://www.gnu.org/licenses/>.
+; *
+; * @license GPL-3.0+ <http://spdx.org/licenses/GPL-3.0+>
+; */
 
 (define-module (st-ces)
   #:use-module ((guix licenses) #:prefix license:)
@@ -44,11 +44,11 @@
 	      (method git-fetch)
 	      (uri (git-reference
 		     (url "https://github.com/chregon2001/st")
-		     (commit "13b3c631be13849cd80bef76ada7ead93ad48dc6")))
+		     (commit "d3a8355f09d05b12f48c42f1ed8acaa8729a1d6e")))
 	      (file-name (git-file-name "st-ces" version))
 	      (sha256
 		(base32
-		  "009za6dv8cr2brs31sjqixnkk3jwm8k62qk38sz4ggby3ps9dzf4"))))
+		  "0rwsnkfpa716kfr0jaafay8dhjm3jkn53ijd7sr8l93hixh04ymf"))))
 	  (build-system glib-or-gtk-build-system)
 	  (outputs '("out"))
 	  (arguments
