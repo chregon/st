@@ -1,4 +1,4 @@
-# Maintainer:
+# NOT MAINTAINED
 
 pkgname=st-luke-git
 _pkgname=st
