@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "mono:pixelsize=14:antialias=true:autohint=true";
-static char *font2[] = { "JoyPixels:pixelsize=10:antialias=true:autohint=true" };
+static char *font = "mono:pixelsize=18:antialias=true:autohint=true";
+static char *font2[] = { "JoyPixels:pixelsize=14:antialias=true:autohint=true" };
 static int borderpx = 2;
 
 /*
@@ -85,7 +85,7 @@ const int boxdraw_braille = 1;
  * bell volume. It must be a value between -100 and 100. Use 0 for disabling
  * it
  */
-static int bellvolume = 0;
+static int bellvolume = 50;
 
 /* default TERM value */
 char *termname = "st-256color";
@@ -108,7 +108,7 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.8;
+float alpha = 0.7;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
