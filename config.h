@@ -9,6 +9,8 @@ static char *font = "mono:pixelsize=18:antialias=true:autohint=true";
 static char *font2[] = { "JoyPixels:pixelsize=14:antialias=true:autohint=true" };
 static int borderpx = 2;
 
+xfps=1100
+
 /*
  * What program is execed by st depends of these precedence rules:
  * 1: program passed with -e
